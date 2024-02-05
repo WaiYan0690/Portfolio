@@ -15,7 +15,7 @@ function ToDoList() {
         if(lists.length>3){
             setCheck(!check);
         }
-    },[lists.length>3])
+    },[lists.length>3]);
     function addHandle(){
         if(inputValue===""){
             return;
