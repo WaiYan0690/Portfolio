@@ -401,7 +401,7 @@ function Home() {
               >
                 <a
                   className="d-flex justify-content-center align-items-center "
-                  href="/todolist"
+                  href="/portfolio/todolist"
                 >
                   <img
                     style={{ width: "70%" }}
@@ -413,7 +413,7 @@ function Home() {
               </div>
               <div>
                 <h4 className="mt-3 fw-bold">TO DO LISTS</h4>
-                <a className=" text-decoration-none" href="/todolist">
+                <a className=" text-decoration-none" href="/portfolio/todolist">
                   <h6 className="d-flex align-items-center text-danger text-start">
                     Show More<i className="bx bx-right-arrow-alt mt-2"></i>
                   </h6>
