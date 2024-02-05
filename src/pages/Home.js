@@ -401,7 +401,7 @@ function Home() {
               >
                 <a
                   className="d-flex justify-content-center align-items-center "
-                  href="/portfolio/todolist"
+                  href="https://dreamy-gnome-57c86d.netlify.app/"
                 >
                   <img
                     style={{ width: "70%" }}
@@ -413,7 +413,7 @@ function Home() {
               </div>
               <div>
                 <h4 className="mt-3 fw-bold">TO DO LISTS</h4>
-                <a className=" text-decoration-none" href="/portfolio/todolist">
+                <a className=" text-decoration-none" href="https://dreamy-gnome-57c86d.netlify.app/">
                   <h6 className="d-flex align-items-center text-danger text-start">
                     Show More<i className="bx bx-right-arrow-alt mt-2"></i>
                   </h6>
