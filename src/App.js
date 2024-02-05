@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/portfolio" element={<Home />} />
-        <Route path="/portfolio/todolist" element={<ToDoList />} />
+        <Route path="/portfolio/#todolist" element={<ToDoList />} />
       </Routes>
     </Router>
   )
