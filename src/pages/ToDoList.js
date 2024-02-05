@@ -74,7 +74,7 @@ function ToDoList() {
                 </ul>
             </div>
             <div>
-                    <a href='/' className='text-white mt-5'>Go Back to Home</a>
+                    <a href='/portfolio' className='text-white mt-5'>Go Back to Home</a>
                 </div>
         </div>
     </div>

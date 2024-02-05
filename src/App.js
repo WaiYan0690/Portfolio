@@ -6,6 +6,7 @@ import "../node_modules/boxicons/css/boxicons.min.css";
 import "./App.css";
 import Home from "./pages/Home.js";
 import ToDoList from "./pages/ToDoList.js";
+import Ecommerce from "./pages/Ecommerce.js";
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/portfolio" element={<Home />} />
         <Route path="/portfolio/todolist" element={<ToDoList />} />
+        <Route path="/portfolio/ecommence" element={<Ecommerce/>} />
       </Routes>
     </Router>
   )

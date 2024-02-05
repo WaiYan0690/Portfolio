@@ -427,7 +427,7 @@ function Home() {
               >
                 <a
                   className="d-flex justify-content-center align-items-center"
-                  href=""
+                  href="/portfolio/ecommence"
                 >
                   <img
                     style={{ width: "78%" }}
@@ -438,8 +438,8 @@ function Home() {
                 </a>
               </div>
               <div>
-                <h4 className="mt-3 fw-bold">Image Designs</h4>
-                <a className=" text-decoration-none" href="">
+                <h4 className="mt-3 fw-bold">E Commerce</h4>
+                <a className=" text-decoration-none" href="/portfolio/ecommence">
                   <h6 className="d-flex align-items-center text-danger text-start">
                     Show More<i className="bx bx-right-arrow-alt mt-2"></i>
                   </h6>
