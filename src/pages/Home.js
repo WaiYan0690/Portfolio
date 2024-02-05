@@ -397,7 +397,7 @@ function Home() {
             <div className="col-md-5">
               <div
                 style={{ width: "100%" }}
-                className="py-md-4 py-2 bg-black rounded-5 m-auto"
+                className="py-md-4 py-2 bg-black rounded-5 m-auto "
               >
                 <a
                   className="d-flex justify-content-center align-items-center "
