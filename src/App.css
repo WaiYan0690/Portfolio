@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+.bottomborder {
+    transition: 0.1s 0.1s;
+}
+.bottomborder:hover {
+    border-bottom: 2px solid white;
+    transform: translateY(-2px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projectHover:hover{
+    opacity: 0.7;
+    background-image: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.displayed {
+    display: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list:hover {
+    background: hsl(185, 100%, 45%);
 }
-
-.App-link {
-  color: #61dafb;
+.to-do-list {
+    overflow-y: scroll;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bx-trash:hover {
+    color: red;
+    cursor: pointer;
+}
+.bx-up-arrow-alt:hover {
+    color: hsl(133, 100%, 60%);
+    cursor: pointer;
+}
+.bx-down-arrow-alt:hover {
+    color: hsl(5, 100%, 60%);
+    cursor: pointer;
+}
+.to-do-name:hover {
+    color: white;
+}
+.bx-trash,.bx-up-arrow-alt,.bx-down-arrow-alt {
+    font-size: 20px;
+}
+.bxs-message-square-edit:hover{
+    color: hsl(270, 26%, 70%);
+    cursor: pointer;
 }
